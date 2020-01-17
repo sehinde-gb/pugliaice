@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('datepicker', 'DatepickerController@create');
+Route::post('datepicker', 'DatepickerController@store');
+
 
