@@ -15,7 +15,7 @@ class CreateChecksTable extends Migration
     {
         Schema::create('checks', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->boolean('check_items')->nullable();
+            $table->string('check_items')->nullable();
             $table->timestamps();
         });
     }

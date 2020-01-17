@@ -19,6 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::post('checks', 'CheckController@store');
 
+
+
 // Route::get('skills', function () {
 
 //     return ['Laravel', 'Vue', 'PHP', 'Javascript', 'Tooling'];

@@ -22,9 +22,12 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('checkbox', require('./components/Checkbox.vue'));
 //Vue.component('userbox', require('./components/Userbox.vue'));
+Vue.component('datepicker', require('./components/Datepicker.vue'));
 
 import checkbox from './components/Checkbox.vue';
-//import userbox from './components/Userbox.vue';
+import Datepicker from 'vuejs-datepicker';
+//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -34,7 +37,7 @@ import checkbox from './components/Checkbox.vue';
 const app = new Vue({
     el: '#app',
 
-    components: {checkbox}
+    components: {checkbox, Datepicker}
 
       
 });
