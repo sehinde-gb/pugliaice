@@ -15,12 +15,11 @@ class DatepickerController extends Controller
     public function store(Request $request)
     {
         $datepicker = new \App\Datepicker;
-        $datepicker->name = $request->get('name');
         $datepicker->date = $request->get('date');
         
         $datepicker->save();
         
-        return redirect('datepicker')->with('success', 'Name and Date has been added in to the database');
+        return redirect('datepicker')->with('success', 'Your Date has been added in to the database');
 
     }
 }

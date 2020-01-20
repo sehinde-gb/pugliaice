@@ -23,9 +23,12 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('checkbox', require('./components/Checkbox.vue'));
 //Vue.component('userbox', require('./components/Userbox.vue'));
 Vue.component('datepicker', require('./components/Datepicker.vue'));
+Vue.component('calendar-component', require('./components/CalendarComponent.vue'));
 
 import checkbox from './components/Checkbox.vue';
-import Datepicker from 'vuejs-datepicker';
+import calendar from './components/CalendarComponent.vue';
+
+
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 /**
@@ -37,7 +40,7 @@ import Datepicker from 'vuejs-datepicker';
 const app = new Vue({
     el: '#app',
 
-    components: {checkbox, Datepicker}
+    components: {checkbox, calendar}
 
       
 });

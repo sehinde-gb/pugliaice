@@ -19,3 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::post('checks', 'CheckController@store');
 
+Route::post('datepicker', 'DatepickerController@store');
+Route::apiResource('/calendar', 'CalendarController');

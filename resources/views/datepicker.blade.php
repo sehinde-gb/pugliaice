@@ -17,13 +17,7 @@
     <h2>Date Picker</h2><br />
     <form method="post" action="{{url('datepicker')}}" enctype="multipart/form-data">
         @csrf
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="form-group col-md-4">
-                <label for="Name">Name:</label>
-                <input type="text" class="form-control" name="name">
-            </div>
-        </div>
+        
 
         <div class="row">
             <div class="col-md-4"></div>
