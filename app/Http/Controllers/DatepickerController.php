@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace pugice\Http\Controllers;
 
 use Illuminate\Http\Request;
 
@@ -14,7 +14,7 @@ class DatepickerController extends Controller
 
     public function store(Request $request)
     {
-        $datepicker = new \App\Datepicker;
+        $datepicker = new \pugice\Datepicker;
         $datepicker->date = $request->get('date');
         
         $datepicker->save();

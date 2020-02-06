@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace pugice\Http\Middleware;
 
-use App\Providers\RouteServiceProvider;
+use pugice\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 

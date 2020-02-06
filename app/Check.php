@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace pugice;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,6 +12,6 @@ class Check extends Model
      * @var array
      */
     protected $fillable = [
-        'check_items'
+        'flavour', 'biscuit_type', 'cone_type', 'review'
     ];
 }

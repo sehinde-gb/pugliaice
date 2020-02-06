@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace pugice\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        // 'App\Model' => 'App\Policies\ModelPolicy',
+        // 'pugice\Model' => 'pugice\Policies\ModelPolicy',
     ];
 
     /**
