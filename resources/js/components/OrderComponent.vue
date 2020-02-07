@@ -31,8 +31,11 @@
                     <input type="checkbox"
                         id="sendpecan"
                         value="Pecan"
-                        v-model="checkedOptions">Pecan Flavour
+                        v-model="checkedOptions"
+                        @click='toggle = !toggle'>Pecan Flavour
                 </label>
+
+                <div v-show='toggle'>showing</div>
             </div>
             
          
@@ -82,6 +85,7 @@
         data() {
                 
             return {
+                toggle: false,
                 message: '',
                 checkedOptions: [],
                 picked: '',

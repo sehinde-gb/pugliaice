@@ -13,8 +13,6 @@
         <div class="content">
             <div id="app">
                 
-                
-
                 <br>
                 <order></order>
                 
