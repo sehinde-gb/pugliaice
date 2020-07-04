@@ -1,6 +1,6 @@
 <?php
 
-namespace pugice\Providers;
+namespace app\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

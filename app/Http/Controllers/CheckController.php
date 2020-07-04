@@ -1,7 +1,7 @@
 <?php
 
-namespace pugice\Http\Controllers;
-use pugice\Check;
+namespace app\Http\Controllers;
+use app\Check;
 
 use Illuminate\Http\Request;
 

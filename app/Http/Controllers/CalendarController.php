@@ -1,10 +1,10 @@
 <?php
 
-namespace pugice\Http\Controllers;
+namespace app\Http\Controllers;
 
-use pugice\Calendar;
+use app\Calendar;
 use Illuminate\Http\Request;
-use pugice\Http\Resources\CalendarResource;
+use app\Http\Resources\CalendarResource;
 use Symfony\Component\HttpFoundation\Response;
 
 class CalendarController extends Controller
@@ -48,7 +48,7 @@ class CalendarController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \pugice\Calendar  $calendar
+     * @param  \app\Calendar  $calendar
      * @return \Illuminate\Http\Response
      */
     public function show(Calendar $calendar)
@@ -59,7 +59,7 @@ class CalendarController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \pugice\Calendar  $calendar
+     * @param  \app\Calendar  $calendar
      * @return \Illuminate\Http\Response
      */
     public function edit(Calendar $calendar)
@@ -71,7 +71,7 @@ class CalendarController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \pugice\Calendar  $calendar
+     * @param  \app\Calendar  $calendar
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Calendar $calendar)
@@ -87,7 +87,7 @@ class CalendarController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \pugice\Calendar  $calendar
+     * @param  \app\Calendar  $calendar
      * @return \Illuminate\Http\Response
      */
     public function destroy(Calendar $calendar)

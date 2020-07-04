@@ -1,6 +1,6 @@
 <?php
 
-namespace pugice;
+namespace app;
 
 use Illuminate\Database\Eloquent\Model;
 

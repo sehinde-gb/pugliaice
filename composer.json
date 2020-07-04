@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "pugice\\": "app/"
+            "app\\": "app/"
         },
         "classmap": [
             "database/seeds",

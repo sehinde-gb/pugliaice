@@ -1,9 +1,9 @@
 <?php
 
-namespace pugice\Http\Controllers\Auth;
+namespace app\Http\Controllers\Auth;
 
-use pugice\Http\Controllers\Controller;
-use pugice\Providers\RouteServiceProvider;
+use app\Http\Controllers\Controller;
+use app\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\VerifiesEmails;
 
 class VerificationController extends Controller

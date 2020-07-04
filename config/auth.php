@@ -68,7 +68,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => pugice\User::class,
+            'model' => app\User::class,
         ],
 
         // 'users' => [
